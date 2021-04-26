@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vacunas COVID-19 España</title>
+	<script src="https://d3js.org/d3.v6.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.4.2/d3.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+
+<body>
+	<div class="Intro">
+		<hr style="width:100%;text-align:left;margin-left:0">
+		<h1>VACUNACIÓN CONTRA LA COVID-19 EN DATOS Y GRÁFICAS</h1>
+		<p class="sub-h1">En esta página se recogen y comparan distintos datos relativos a la vacunación contra la enfermedad COVID-19 en España mediante la utilización de gráficas de D3.</p>
+		<hr style="width:100%;text-align:left;margin-left:0">
+	</div>
+	<div class="charts-container">
+		<div class="card chart-card">
+		<div class="card-body">
+			<h2 class="card-title">Vacunas diarias suministradas en España</h2>
+			<p class="card-text">En esta gráfica se recoge el número de vacunas contra la COVID-19 suministradas en España desde el 05/01/2020 hasta el 23/04/2021. Utilizando la rueda del ratón se puede ampliar la gráfica y sujetando con el botón izquierdo del ratón y arrastrando se puede desplazar.</p>
+			<div id="barChart" width="1000" height="440">
+			</div>
+		</div>
+	</div>
+		<div class="card chart-card">
+			<div class="card-body">
+				<h2 class="card-title">Porcentaje de personas inmunizadas en España</h2>
+				<p class="card-text">En esta gráfica se recogen el porcentaje de personas que han recibido al menos una dosis de la vacuna contra la COVID-19 y el porcentaje de personas totalmente inmunizadas desde el 05/01/2020 hasta el 23/04/2021. Utilizando se puede seleccionar un área de la grádfica para ampliarla la gráfica y sujetando con el botón izquierdo del ratón y arrastrando se puede desplazar.</p>
+				<div id="areaChart" width="1000" height="440">
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+<script type="text/javascript" src="stacked-area-chart.js"></script>
+<script type="text/javascript" src="zoomable-bar-chart.js"></script>
+
+</body>
+<footer>
+	<p>Autor: Mario Muñoz Moreno</p>
+	<p><a href="mailto:mariomunoz3m@usal.es">mariomunoz3m@usal.es</a></p>
+</footer>
+</html>

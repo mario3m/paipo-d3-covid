@@ -1,0 +1,45 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+div#barchart {
+  display: block;
+}
+
+div#areachart {
+  display: block;
+}
+
+.card.chart-card {
+	max-width: 1200px;
+	min-width: 600px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+.card-text {
+	text-align: left;
+	margin-left: 40px;
+	margin-right: 40px;
+	font-size: 14px;
+	color: #606060;
+	margin-bottom: 30px;
+}
+
+h1{
+	margin: 20px;
+}
+
+.sub-h1{
+	font-size: 16px;
+}
+
+.card-body{
+	padding: 40px!important;
+	padding-bottom: 0px!important;
+}
+
+.charts-container{
+	padding: 10px;
+}
